@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source S:\4thYearProject\zener-rng\zener-rng\zener-rng.sch)
-    (date "09/03/2019 17:09:10")
+    (date "09/03/2019 21:12:51")
     (tool "Eeschema (5.0.0-rc3-dev)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -207,7 +207,7 @@
       (value 10uF)
       (footprint agg:0603)
       (fields
-        (field (name Farnell) 2611923RL))
+        (field (name Farnell) 2611923))
       (libsource (lib agg-kicad) (part C) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5C86709B))
@@ -215,7 +215,7 @@
       (value 10uF)
       (footprint agg:0603)
       (fields
-        (field (name Farnell) 2611923RL))
+        (field (name Farnell) 2611923))
       (libsource (lib agg-kicad) (part C) (description ""))
       (sheetpath (names /) (tstamps /))
       (tstamp 5C8794CB))

@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>S:\4thYearProject\zener-rng\zener-rng\zener-rng.sch</source>
-    <date>09/03/2019 11:31:14</date>
+    <date>09/03/2019 20:46:37</date>
     <tool>Eeschema (5.0.0-rc3-dev)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -81,7 +81,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C82DE84</tstamp>
     </comp>
-    <comp ref="C4">
+    <comp ref="C2">
       <value>4.7nF</value>
       <footprint>agg:0603</footprint>
       <fields>
@@ -132,7 +132,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C82F8D0</tstamp>
     </comp>
-    <comp ref="R8">
+    <comp ref="R6">
       <value>2.49k</value>
       <footprint>agg:0603</footprint>
       <fields>
@@ -142,7 +142,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C8306DE</tstamp>
     </comp>
-    <comp ref="R9">
+    <comp ref="R7">
       <value>249</value>
       <footprint>agg:0603</footprint>
       <fields>
@@ -182,7 +182,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C83289E</tstamp>
     </comp>
-    <comp ref="C8">
+    <comp ref="C6">
       <value>33nF</value>
       <footprint>agg:0603</footprint>
       <fields>
@@ -212,7 +212,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C8385F2</tstamp>
     </comp>
-    <comp ref="R14">
+    <comp ref="R13">
       <value>1k</value>
       <footprint>agg:0603</footprint>
       <fields>
@@ -233,7 +233,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C862FE8</tstamp>
     </comp>
-    <comp ref="R7">
+    <comp ref="R9">
       <value>20k</value>
       <footprint>agg:0603</footprint>
       <fields>
@@ -243,7 +243,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C866F14</tstamp>
     </comp>
-    <comp ref="R6">
+    <comp ref="R8">
       <value>180k</value>
       <footprint>agg:0603</footprint>
       <fields>
@@ -253,56 +253,25 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C866FBD</tstamp>
     </comp>
-    <comp ref="C7">
+    <comp ref="C8">
       <value>10uF</value>
       <footprint>agg:0603</footprint>
       <fields>
-        <field name="Farnell">2611923RL</field>
+        <field name="Farnell">2611923</field>
       </fields>
       <libsource lib="agg-kicad" part="C" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C86709B</tstamp>
     </comp>
-    <comp ref="C3">
+    <comp ref="C4">
       <value>10uF</value>
       <footprint>agg:0603</footprint>
       <fields>
-        <field name="Farnell">2611923RL</field>
+        <field name="Farnell">2611923</field>
       </fields>
       <libsource lib="agg-kicad" part="C" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C8794CB</tstamp>
-    </comp>
-    <comp ref="J5">
-      <value>CONN_01x03</value>
-      <footprint>agg:SIL-254P-03</footprint>
-      <fields>
-        <field name="Farnell">1593459</field>
-      </fields>
-      <libsource lib="agg-kicad" part="CONN_01x03" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C88716D</tstamp>
-    </comp>
-    <comp ref="J3">
-      <value>CONN_01x03</value>
-      <footprint>agg:SIL-254P-03</footprint>
-      <fields>
-        <field name="Farnell">9731083</field>
-      </fields>
-      <libsource lib="agg-kicad" part="CONN_01x03" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C8874FC</tstamp>
-    </comp>
-    <comp ref="R12">
-      <value>potentiometer</value>
-      <footprint>zener-rng:3266W_trimpot</footprint>
-      <datasheet>http://www.farnell.com/datasheets/2061259.pdf</datasheet>
-      <fields>
-        <field name="Farnell">9352651</field>
-      </fields>
-      <libsource lib="potentiometer" part="potentiometer" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C88AC7C</tstamp>
     </comp>
     <comp ref="TP6">
       <value>TESTPAD</value>
@@ -318,7 +287,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C88DE89</tstamp>
     </comp>
-    <comp ref="TP2">
+    <comp ref="TP3">
       <value>TESTPAD</value>
       <footprint>agg:TESTPAD</footprint>
       <libsource lib="agg-kicad" part="TESTPAD" description="Test pad"/>
@@ -332,7 +301,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C88E316</tstamp>
     </comp>
-    <comp ref="TP3">
+    <comp ref="TP2">
       <value>TESTPAD</value>
       <footprint>agg:TESTPAD</footprint>
       <libsource lib="agg-kicad" part="TESTPAD" description="Test pad"/>
@@ -367,7 +336,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C89CE20</tstamp>
     </comp>
-    <comp ref="R13">
+    <comp ref="R12">
       <value>1k</value>
       <footprint>agg:0603</footprint>
       <fields>
@@ -377,16 +346,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C8AD859</tstamp>
     </comp>
-    <comp ref="R16">
-      <value>4.7k</value>
-      <footprint>agg:0603</footprint>
-      <fields>
-        <field name="Farnell">1652884</field>
-      </fields>
-      <libsource lib="agg-kicad" part="R" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C8BABFB</tstamp>
-    </comp>
     <comp ref="TP7">
       <value>TESTPAD</value>
       <footprint>agg:TESTPAD</footprint>
@@ -394,7 +353,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C88E100</tstamp>
     </comp>
-    <comp ref="C2">
+    <comp ref="C3">
       <value>1.5uF</value>
       <footprint>agg:1206</footprint>
       <fields>
@@ -404,7 +363,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C83DB5E</tstamp>
     </comp>
-    <comp ref="C6">
+    <comp ref="C7">
       <value>1.5uF</value>
       <footprint>agg:1206</footprint>
       <fields>
@@ -425,37 +384,7 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C8DD182</tstamp>
     </comp>
-    <comp ref="U3">
-      <value>TPL0401A-10QDCKRQ1</value>
-      <footprint>agg:SC-70-6</footprint>
-      <datasheet>http://www.ti.com/lit/ds/symlink/tpl0401a-10-q1.pdf</datasheet>
-      <fields>
-        <field name="Farnell">2851096</field>
-      </fields>
-      <libsource lib="TPL0401A-10QDCKRQ1" part="TPL0401A-10QDCKRQ1" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C8DD7DA</tstamp>
-    </comp>
-    <comp ref="R15">
-      <value>4.7k</value>
-      <footprint>agg:0603</footprint>
-      <fields>
-        <field name="Farnell">1652884</field>
-      </fields>
-      <libsource lib="agg-kicad" part="R" description=""/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C8E876E</tstamp>
-    </comp>
-    <comp ref="X1">
-      <value>Jumper</value>
-      <fields>
-        <field name="Farnell">1654800</field>
-      </fields>
-      <libsource lib="agg-kicad" part="PART" description="Generic placeholder part"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C933AB8</tstamp>
-    </comp>
-    <comp ref="J4">
+    <comp ref="J3">
       <value>CONN_01x03</value>
       <footprint>agg:SIL-254P-03</footprint>
       <fields>
@@ -482,27 +411,6 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5C9D32E2</tstamp>
     </comp>
-    <comp ref="TP12">
-      <value>TESTPAD</value>
-      <footprint>agg:TESTPAD</footprint>
-      <libsource lib="agg-kicad" part="TESTPAD" description="Test pad"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C9D34B4</tstamp>
-    </comp>
-    <comp ref="TP13">
-      <value>TESTPAD</value>
-      <footprint>agg:TESTPAD</footprint>
-      <libsource lib="agg-kicad" part="TESTPAD" description="Test pad"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C9DED76</tstamp>
-    </comp>
-    <comp ref="TP14">
-      <value>TESTPAD</value>
-      <footprint>agg:TESTPAD</footprint>
-      <libsource lib="agg-kicad" part="TESTPAD" description="Test pad"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5C9DF028</tstamp>
-    </comp>
     <comp ref="U1">
       <value>ST8R00</value>
       <footprint>zener-rng:DFN-8-ST</footprint>
@@ -514,15 +422,36 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5CA16A54</tstamp>
     </comp>
-    <comp ref="C11">
-      <value>100nF</value>
+    <comp ref="R14">
+      <value>2.49k</value>
       <footprint>agg:0603</footprint>
       <fields>
-        <field name="Farnell">2749806</field>
+        <field name="Farnell">1469767</field>
       </fields>
-      <libsource lib="agg-kicad" part="C" description=""/>
+      <libsource lib="agg-kicad" part="R" description=""/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5CA29BE8</tstamp>
+      <tstamp>5CA69952</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>2.49k</value>
+      <footprint>agg:0603</footprint>
+      <fields>
+        <field name="Farnell">1469767</field>
+      </fields>
+      <libsource lib="agg-kicad" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CA69C40</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>1k potentiometer</value>
+      <footprint>zener-rng:3266W_trimpot</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2061259.pdf</datasheet>
+      <fields>
+        <field name="Farnell">9352643</field>
+      </fields>
+      <libsource lib="potentiometer" part="potentiometer" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C88AC7C</tstamp>
     </comp>
   </components>
   <libparts>
@@ -544,23 +473,6 @@
         <pin num="7" name="HV" type="input"/>
         <pin num="8" name="OUT" type="power_out"/>
         <pin num="EP" name="EP" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="TPL0401A-10QDCKRQ1" part="TPL0401A-10QDCKRQ1">
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">TPL0401A-10QDCKRQ1</field>
-        <field name="Footprint">agg:SC-70-6</field>
-        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tpl0401a-10-q1.pdf</field>
-        <field name="Farnell">2851096</field>
-      </fields>
-      <pins>
-        <pin num="1" name="VDD" type="power_in"/>
-        <pin num="2" name="GND" type="power_in"/>
-        <pin num="3" name="SCL" type="input"/>
-        <pin num="4" name="SDA" type="BiDi"/>
-        <pin num="5" name="W" type="passive"/>
-        <pin num="6" name="H" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="agg-kicad" part="C">
@@ -649,13 +561,6 @@
         <pin num="3" name="C" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="agg-kicad" part="PART">
-      <description>Generic placeholder part</description>
-      <fields>
-        <field name="Reference">X</field>
-        <field name="Value">PART</field>
-      </fields>
-    </libpart>
     <libpart lib="agg-kicad" part="R">
       <fields>
         <field name="Reference">R</field>
@@ -712,9 +617,6 @@
     <library logical="ST8R00">
       <uri>S:\4thYearProject\zener-rng\zener-rng/ST8R00.lib</uri>
     </library>
-    <library logical="TPL0401A-10QDCKRQ1">
-      <uri>S:\4thYearProject\zener-rng\zener-rng\TPL0401A-10QDCKRQ1.lib</uri>
-    </library>
     <library logical="agg-kicad">
       <uri>S:\4thYearProject\zener-rng\zener-rng/../agg-kicad/agg-kicad.lib</uri>
     </library>
@@ -726,94 +628,82 @@
     </library>
   </libraries>
   <nets>
-    <net code="1" name="3v3">
-      <node ref="U3" pin="6"/>
-      <node ref="R15" pin="1"/>
-      <node ref="U3" pin="1"/>
-      <node ref="R13" pin="1"/>
-      <node ref="R12" pin="1"/>
-      <node ref="R16" pin="1"/>
-      <node ref="TP7" pin="1"/>
-      <node ref="C6" pin="1"/>
-      <node ref="C11" pin="1"/>
-      <node ref="IC1" pin="2"/>
+    <net code="1" name="Net-(C2-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="TP2" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="Q1" pin="2"/>
     </net>
-    <net code="2" name="GND">
-      <node ref="J1" pin="5"/>
-      <node ref="U2" pin="4"/>
+    <net code="2" name="Net-(R8-Pad2)">
+      <node ref="R9" pin="1"/>
+      <node ref="TP6" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="3" name="GND">
       <node ref="U1" pin="2"/>
-      <node ref="J4" pin="1"/>
-      <node ref="J2" pin="1"/>
-      <node ref="J2" pin="2"/>
-      <node ref="U1" pin="3"/>
       <node ref="U1" pin="7"/>
       <node ref="U1" pin="EP"/>
-      <node ref="C3" pin="1"/>
-      <node ref="R14" pin="2"/>
-      <node ref="C9" pin="2"/>
-      <node ref="R7" pin="2"/>
-      <node ref="C8" pin="2"/>
-      <node ref="C5" pin="2"/>
-      <node ref="Q1" pin="1"/>
-      <node ref="D1" pin="2"/>
-      <node ref="R5" pin="2"/>
-      <node ref="C1" pin="2"/>
-      <node ref="C7" pin="1"/>
-      <node ref="U3" pin="2"/>
-      <node ref="R12" pin="3"/>
-      <node ref="C6" pin="2"/>
-      <node ref="C2" pin="2"/>
-      <node ref="IC1" pin="1"/>
-      <node ref="J5" pin="1"/>
-      <node ref="C11" pin="2"/>
-    </net>
-    <net code="3" name="Net-(J3-Pad1)">
-      <node ref="J3" pin="1"/>
-      <node ref="U3" pin="5"/>
-      <node ref="TP12" pin="1"/>
-    </net>
-    <net code="4" name="Net-(J3-Pad3)">
-      <node ref="TP11" pin="1"/>
-      <node ref="R12" pin="2"/>
-      <node ref="J3" pin="3"/>
-    </net>
-    <net code="5" name="Net-(J5-Pad3)">
-      <node ref="U3" pin="3"/>
-      <node ref="R15" pin="2"/>
-      <node ref="J5" pin="3"/>
-      <node ref="TP13" pin="1"/>
-    </net>
-    <net code="6" name="Net-(J5-Pad2)">
-      <node ref="J5" pin="2"/>
-      <node ref="R16" pin="2"/>
-      <node ref="TP14" pin="1"/>
-      <node ref="U3" pin="4"/>
-    </net>
-    <net code="7" name="Net-(J3-Pad2)">
-      <node ref="J3" pin="2"/>
-      <node ref="J4" pin="3"/>
-    </net>
-    <net code="8" name="12v">
-      <node ref="R4" pin="1"/>
-      <node ref="TP5" pin="1"/>
       <node ref="C7" pin="2"/>
-      <node ref="R6" pin="1"/>
+      <node ref="J2" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="R16" pin="1"/>
+      <node ref="IC1" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J3" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="R13" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U2" pin="4"/>
+      <node ref="C9" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="J1" pin="5"/>
+      <node ref="C8" pin="1"/>
+      <node ref="R9" pin="2"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="4" name="3v3">
+      <node ref="TP7" pin="1"/>
+      <node ref="IC1" pin="2"/>
+      <node ref="R12" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="5" name="Net-(R15-Pad3)">
+      <node ref="R16" pin="2"/>
+      <node ref="R15" pin="3"/>
+    </net>
+    <net code="6" name="Net-(R14-Pad1)">
+      <node ref="R14" pin="1"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="7" name="Net-(C10-Pad2)">
+      <node ref="J3" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="R13" pin="1"/>
+      <node ref="TP10" pin="1"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="8" name="Net-(J2-Pad1)">
+      <node ref="J2" pin="1"/>
+    </net>
+    <net code="9" name="Net-(J3-Pad3)">
+      <node ref="TP11" pin="1"/>
+      <node ref="J3" pin="3"/>
+      <node ref="R15" pin="2"/>
+    </net>
+    <net code="10" name="12v">
+      <node ref="R4" pin="1"/>
       <node ref="C9" pin="1"/>
-      <node ref="R1" pin="1"/>
       <node ref="U2" pin="8"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="TP5" pin="1"/>
       <node ref="U1" pin="8"/>
-    </net>
-    <net code="9" name="Net-(C10-Pad1)">
-      <node ref="U2" pin="7"/>
-      <node ref="TP9" pin="1"/>
-      <node ref="C10" pin="1"/>
-      <node ref="R11" pin="1"/>
-    </net>
-    <net code="10" name="Net-(R8-Pad2)">
-      <node ref="U2" pin="5"/>
-      <node ref="TP8" pin="1"/>
-      <node ref="U2" pin="1"/>
-      <node ref="R8" pin="2"/>
     </net>
     <net code="11" name="Net-(J1-PadS)">
       <node ref="J1" pin="S"/>
@@ -827,78 +717,71 @@
     <net code="14" name="Net-(J1-Pad2)">
       <node ref="J1" pin="2"/>
     </net>
-    <net code="15" name="Net-(C4-Pad2)">
+    <net code="15" name="Net-(C2-Pad2)">
       <node ref="R5" pin="1"/>
-      <node ref="C4" pin="2"/>
+      <node ref="U2" pin="3"/>
       <node ref="TP4" pin="1"/>
       <node ref="R4" pin="2"/>
-      <node ref="U2" pin="3"/>
+      <node ref="C2" pin="2"/>
     </net>
-    <net code="16" name="Net-(C8-Pad1)">
-      <node ref="C8" pin="1"/>
-      <node ref="R10" pin="2"/>
+    <net code="16" name="Net-(C10-Pad1)">
+      <node ref="TP9" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="U2" pin="7"/>
     </net>
     <net code="17" name="Net-(R10-Pad1)">
-      <node ref="U2" pin="6"/>
       <node ref="R10" pin="1"/>
       <node ref="R11" pin="2"/>
+      <node ref="U2" pin="6"/>
     </net>
-    <net code="18" name="Net-(C5-Pad1)">
-      <node ref="R9" pin="2"/>
-      <node ref="C5" pin="1"/>
-    </net>
-    <net code="19" name="Net-(R8-Pad1)">
-      <node ref="R9" pin="1"/>
-      <node ref="R8" pin="1"/>
+    <net code="18" name="Net-(R6-Pad1)">
       <node ref="U2" pin="2"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R7" pin="1"/>
     </net>
-    <net code="20" name="Net-(Q1-Pad3)">
+    <net code="19" name="Net-(Q1-Pad3)">
       <node ref="Q1" pin="3"/>
     </net>
+    <net code="20" name="Net-(C1-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="R1" pin="2"/>
+      <node ref="C1" pin="1"/>
+    </net>
     <net code="21" name="Net-(D1-Pad1)">
+      <node ref="R3" pin="2"/>
       <node ref="R2" pin="2"/>
       <node ref="TP1" pin="1"/>
       <node ref="D1" pin="1"/>
-      <node ref="R3" pin="2"/>
     </net>
-    <net code="22" name="Net-(C4-Pad1)">
+    <net code="22" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="23" name="VCC">
+      <node ref="C4" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="L1" pin="1"/>
       <node ref="TP3" pin="1"/>
-      <node ref="C4" pin="1"/>
-      <node ref="R3" pin="1"/>
-      <node ref="Q1" pin="2"/>
-    </net>
-    <net code="23" name="Net-(C1-Pad1)">
-      <node ref="R2" pin="1"/>
-      <node ref="C1" pin="1"/>
-      <node ref="R1" pin="2"/>
+      <node ref="IC1" pin="3"/>
+      <node ref="J2" pin="3"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="6"/>
     </net>
     <net code="24" name="Net-(L1-Pad2)">
       <node ref="U1" pin="1"/>
       <node ref="L1" pin="2"/>
     </net>
     <net code="25" name="Net-(R6-Pad2)">
-      <node ref="TP6" pin="1"/>
-      <node ref="U1" pin="5"/>
       <node ref="R6" pin="2"/>
-      <node ref="R7" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="TP8" pin="1"/>
+      <node ref="U2" pin="5"/>
     </net>
-    <net code="26" name="VCC">
-      <node ref="U1" pin="6"/>
-      <node ref="IC1" pin="3"/>
-      <node ref="J2" pin="3"/>
-      <node ref="U1" pin="4"/>
-      <node ref="C2" pin="1"/>
-      <node ref="L1" pin="1"/>
-      <node ref="C3" pin="2"/>
-      <node ref="TP2" pin="1"/>
-      <node ref="J1" pin="1"/>
-    </net>
-    <net code="27" name="Net-(C10-Pad2)">
-      <node ref="R14" pin="1"/>
-      <node ref="R13" pin="2"/>
-      <node ref="C10" pin="2"/>
-      <node ref="TP10" pin="1"/>
-      <node ref="J4" pin="2"/>
+    <net code="26" name="Net-(C6-Pad1)">
+      <node ref="R10" pin="2"/>
+      <node ref="C6" pin="1"/>
     </net>
   </nets>
 </export>
