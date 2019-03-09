@@ -1,0 +1,890 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>S:\4thYearProject\zener-rng\zener-rng\zener-rng.sch</source>
+    <date>09/03/2019 10:21:36</date>
+    <tool>Eeschema (5.0.0-rc3-dev)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Zener-RNG</title>
+        <company>Cambridge University Engineering Department</company>
+        <rev>1.0</rev>
+        <date>2019-03-08</date>
+        <source>zener-rng.sch</source>
+        <comment number="1" value="Gregory Brooks gb510"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>LM4040-10V</value>
+      <footprint>agg:SOT-23</footprint>
+      <datasheet>http://www.ti.com/general/docs/lit/getliterature.tsp?genericPartNumber=LM4040-N&amp;&amp;fileType=pdf</datasheet>
+      <fields>
+        <field name="Farnell">1468845</field>
+      </fields>
+      <libsource lib="agg-kicad" part="D" description="Diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C82D417</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>agg:0603</footprint>
+      <fields>
+        <field name="Farnell">1469740</field>
+      </fields>
+      <libsource lib="agg-kicad" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C82D4D5</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1k</value>
+      <footprint>agg:0603</footprint>
+      <fields>
+        <field name="Farnell">1469740</field>
+      </fields>
+      <libsource lib="agg-kicad" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C82D5BE</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>100k</value>
+      <footprint>agg:0603</footprint>
+      <fields>
+        <field name="Farnell">1469649</field>
+      </fields>
+      <libsource lib="agg-kicad" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C82D5EB</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>2N4401</value>
+      <footprint>zener-rng:TO-92</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1702446.pdf</datasheet>
+      <fields>
+        <field name="Farnell">1574373</field>
+      </fields>
+      <libsource lib="agg-kicad" part="NPN" description="NPN BJT Transistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C82D7B0</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>1.5uF</value>
+      <footprint>agg:1206</footprint>
+      <fields>
+        <field name="Farnell">2820886</field>
+      </fields>
+      <libsource lib="agg-kicad" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C82DE84</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>4.7nF</value>
+      <footprint>agg:0603</footprint>
+      <fields>
+        <field name="Farnell">317263</field>
+      </fields>
+      <libsource lib="agg-kicad" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C82E527</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>1k</value>
+      <footprint>agg:0603</footprint>
+      <fields>
+        <field name="Farnell">1469740</field>
+      </fields>
+      <libsource lib="agg-kicad" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C82E698</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <footprint>agg:0603</footprint>
+      <fields>
+        <field name="Farnell">1469740</field>
+      </fields>
+      <libsource lib="agg-kicad" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C82EBBA</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>MICROUSB</value>
+      <footprint>agg:MICROUSB_MOLEX_47589-0001</footprint>
+      <fields>
+        <field name="Farnell">1568023</field>
+      </fields>
+      <libsource lib="agg-kicad" part="MICROUSB" description="Micro USB connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C82F0F6</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LT1215CS8#PBF</value>
+      <footprint>agg:SOIC-8</footprint>
+      <datasheet>https://www.mouser.co.uk/datasheet/2/609/12156fb-1268356.pdf</datasheet>
+      <fields>
+        <field name="Mouser">584-LT1215CS8#PBF</field>
+      </fields>
+      <libsource lib="lt1215" part="LT1215CS8#PBF" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C82F8D0</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>2.49k</value>
+      <footprint>agg:0603</footprint>
+      <fields>
+        <field name="Farnell">1469767</field>
+      </fields>
+      <libsource lib="agg-kicad" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C8306DE</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>249</value>
+      <footprint>agg:0603</footprint>
+      <fields>
+        <field name="Farnell">2141316</field>
+      </fields>
+      <libsource lib="agg-kicad" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C830794</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>33nF</value>
+      <footprint>agg:0603</footprint>
+      <fields>
+        <field name="Farnell">1759112</field>
+      </fields>
+      <libsource lib="agg-kicad" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C8318D3</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>2.49k</value>
+      <footprint>agg:0603</footprint>
+      <fields>
+        <field name="Farnell">1469767</field>
+      </fields>
+      <libsource lib="agg-kicad" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C832896</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>249</value>
+      <footprint>agg:0603</footprint>
+      <fields>
+        <field name="Farnell">2141316</field>
+      </fields>
+      <libsource lib="agg-kicad" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C83289E</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>33nF</value>
+      <footprint>agg:0603</footprint>
+      <fields>
+        <field name="Farnell">1759112</field>
+      </fields>
+      <libsource lib="agg-kicad" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C8328AB</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>10nF</value>
+      <footprint>agg:0603</footprint>
+      <fields>
+        <field name="Farnell">1327675</field>
+      </fields>
+      <libsource lib="agg-kicad" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C837B86</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>3.3nF</value>
+      <footprint>agg:0603</footprint>
+      <fields>
+        <field name="Farnell">1759095</field>
+      </fields>
+      <libsource lib="agg-kicad" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C8385F2</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>1k</value>
+      <footprint>agg:0603</footprint>
+      <fields>
+        <field name="Farnell">1469740</field>
+      </fields>
+      <libsource lib="agg-kicad" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C8398F7</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>ST8R00</value>
+      <footprint>zener-rng:DFN-8-ST</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2581721.pdf</datasheet>
+      <fields>
+        <field name="Farnell">2849799</field>
+      </fields>
+      <libsource lib="ST8R00" part="ST8R00" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C854A76</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>4.7uH</value>
+      <footprint>zener-rng:WURTH_IND_3.8_3.8_1.65</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1910986.pdf</datasheet>
+      <fields>
+        <field name="Farnell">1635834</field>
+      </fields>
+      <libsource lib="agg-kicad" part="L" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C862FE8</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>20k</value>
+      <footprint>agg:0603</footprint>
+      <fields>
+        <field name="Farnell">1469774</field>
+      </fields>
+      <libsource lib="agg-kicad" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C866F14</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>180k</value>
+      <footprint>agg:0603</footprint>
+      <fields>
+        <field name="Farnell">2447266</field>
+      </fields>
+      <libsource lib="agg-kicad" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C866FBD</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>10uF</value>
+      <footprint>agg:0603</footprint>
+      <fields>
+        <field name="Farnell">2611923RL</field>
+      </fields>
+      <libsource lib="agg-kicad" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C86709B</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>agg:0603</footprint>
+      <fields>
+        <field name="Farnell">2611923RL</field>
+      </fields>
+      <libsource lib="agg-kicad" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C8794CB</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>CONN_01x03</value>
+      <footprint>agg:SIL-254P-03</footprint>
+      <fields>
+        <field name="Farnell">1593459</field>
+      </fields>
+      <libsource lib="agg-kicad" part="CONN_01x03" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C88716D</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>CONN_01x03</value>
+      <footprint>agg:SIL-254P-03</footprint>
+      <fields>
+        <field name="Farnell">9731083</field>
+      </fields>
+      <libsource lib="agg-kicad" part="CONN_01x03" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C8874FC</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>potentiometer</value>
+      <footprint>zener-rng:3266W_trimpot</footprint>
+      <datasheet>http://www.farnell.com/datasheets/2061259.pdf</datasheet>
+      <fields>
+        <field name="Farnell">9352651</field>
+      </fields>
+      <libsource lib="potentiometer" part="potentiometer" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C88AC7C</tstamp>
+    </comp>
+    <comp ref="TP6">
+      <value>TESTPAD</value>
+      <footprint>agg:TESTPAD</footprint>
+      <libsource lib="agg-kicad" part="TESTPAD" description="Test pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C88DBA9</tstamp>
+    </comp>
+    <comp ref="TP5">
+      <value>TESTPAD</value>
+      <footprint>agg:TESTPAD</footprint>
+      <libsource lib="agg-kicad" part="TESTPAD" description="Test pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C88DE89</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>TESTPAD</value>
+      <footprint>agg:TESTPAD</footprint>
+      <libsource lib="agg-kicad" part="TESTPAD" description="Test pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C88DF6E</tstamp>
+    </comp>
+    <comp ref="TP4">
+      <value>TESTPAD</value>
+      <footprint>agg:TESTPAD</footprint>
+      <libsource lib="agg-kicad" part="TESTPAD" description="Test pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C88E316</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>TESTPAD</value>
+      <footprint>agg:TESTPAD</footprint>
+      <libsource lib="agg-kicad" part="TESTPAD" description="Test pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C88E702</tstamp>
+    </comp>
+    <comp ref="TP8">
+      <value>TESTPAD</value>
+      <footprint>agg:TESTPAD</footprint>
+      <libsource lib="agg-kicad" part="TESTPAD" description="Test pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C88E7BE</tstamp>
+    </comp>
+    <comp ref="TP10">
+      <value>TESTPAD</value>
+      <footprint>agg:TESTPAD</footprint>
+      <libsource lib="agg-kicad" part="TESTPAD" description="Test pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C88E942</tstamp>
+    </comp>
+    <comp ref="TP9">
+      <value>TESTPAD</value>
+      <footprint>agg:TESTPAD</footprint>
+      <libsource lib="agg-kicad" part="TESTPAD" description="Test pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C88EABE</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>TESTPAD</value>
+      <footprint>agg:TESTPAD</footprint>
+      <libsource lib="agg-kicad" part="TESTPAD" description="Test pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C89CE20</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>1k</value>
+      <footprint>agg:0603</footprint>
+      <fields>
+        <field name="Farnell">1469740</field>
+      </fields>
+      <libsource lib="agg-kicad" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C8AD859</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>4.7k</value>
+      <footprint>agg:0603</footprint>
+      <fields>
+        <field name="Farnell">1652884</field>
+      </fields>
+      <libsource lib="agg-kicad" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C8BABFB</tstamp>
+    </comp>
+    <comp ref="TP7">
+      <value>TESTPAD</value>
+      <footprint>agg:TESTPAD</footprint>
+      <libsource lib="agg-kicad" part="TESTPAD" description="Test pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C88E100</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1.5uF</value>
+      <footprint>agg:1206</footprint>
+      <fields>
+        <field name="Farnell">2820886</field>
+      </fields>
+      <libsource lib="agg-kicad" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C83DB5E</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>1.5uF</value>
+      <footprint>agg:1206</footprint>
+      <fields>
+        <field name="Farnell">2820886</field>
+      </fields>
+      <libsource lib="agg-kicad" part="C" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C83DCC6</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>MCP1700</value>
+      <footprint>agg:SOT-23</footprint>
+      <datasheet>http://www.farnell.com/datasheets/1784514.pdf</datasheet>
+      <fields>
+        <field name="Farnell">1296592</field>
+      </fields>
+      <libsource lib="agg-kicad" part="MCP1700" description="LDO Voltage Regulator"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C8DD182</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>TPL0401A-10QDCKRQ1</value>
+      <footprint>agg:SC-70-6</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tpl0401a-10-q1.pdf</datasheet>
+      <fields>
+        <field name="Farnell">2851096</field>
+      </fields>
+      <libsource lib="TPL0401A-10QDCKRQ1" part="TPL0401A-10QDCKRQ1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C8DD7DA</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>4.7k</value>
+      <footprint>agg:0603</footprint>
+      <fields>
+        <field name="Farnell">1652884</field>
+      </fields>
+      <libsource lib="agg-kicad" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C8E876E</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>Jumper</value>
+      <fields>
+        <field name="Farnell">1654800</field>
+      </fields>
+      <libsource lib="agg-kicad" part="PART" description="Generic placeholder part"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C933AB8</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>CONN_01x03</value>
+      <footprint>agg:SIL-254P-03</footprint>
+      <fields>
+        <field name="Farnell">1593459</field>
+      </fields>
+      <libsource lib="agg-kicad" part="CONN_01x03" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C933F4B</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>CONN_01x03</value>
+      <footprint>agg:SIL-254P-03</footprint>
+      <fields>
+        <field name="Farnell">1593459</field>
+      </fields>
+      <libsource lib="agg-kicad" part="CONN_01x03" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9345AF</tstamp>
+    </comp>
+    <comp ref="TP11">
+      <value>TESTPAD</value>
+      <footprint>agg:TESTPAD</footprint>
+      <libsource lib="agg-kicad" part="TESTPAD" description="Test pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9D32E2</tstamp>
+    </comp>
+    <comp ref="TP12">
+      <value>TESTPAD</value>
+      <footprint>agg:TESTPAD</footprint>
+      <libsource lib="agg-kicad" part="TESTPAD" description="Test pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9D34B4</tstamp>
+    </comp>
+    <comp ref="TP13">
+      <value>TESTPAD</value>
+      <footprint>agg:TESTPAD</footprint>
+      <libsource lib="agg-kicad" part="TESTPAD" description="Test pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9DED76</tstamp>
+    </comp>
+    <comp ref="TP14">
+      <value>TESTPAD</value>
+      <footprint>agg:TESTPAD</footprint>
+      <libsource lib="agg-kicad" part="TESTPAD" description="Test pad"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C9DF028</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="ST8R00" part="ST8R00">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ST8R00</field>
+        <field name="Footprint">zener-rng:DFN-8-ST</field>
+        <field name="Datasheet">http://www.farnell.com/datasheets/2581721.pdf</field>
+        <field name="Farnell">2849799</field>
+      </fields>
+      <pins>
+        <pin num="1" name="LX" type="power_out"/>
+        <pin num="2" name="PGND" type="power_in"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="IN" type="power_in"/>
+        <pin num="5" name="FB" type="input"/>
+        <pin num="6" name="INH" type="input"/>
+        <pin num="7" name="HV" type="input"/>
+        <pin num="8" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="TPL0401A-10QDCKRQ1" part="TPL0401A-10QDCKRQ1">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPL0401A-10QDCKRQ1</field>
+        <field name="Footprint">agg:SC-70-6</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tpl0401a-10-q1.pdf</field>
+        <field name="Farnell">2851096</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="SCL" type="input"/>
+        <pin num="4" name="SDA" type="BiDi"/>
+        <pin num="5" name="W" type="passive"/>
+        <pin num="6" name="H" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="agg-kicad" part="C">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="agg-kicad" part="CONN_01x03">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_01x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="agg-kicad" part="D">
+      <description>Diode</description>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="agg-kicad" part="L">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="agg-kicad" part="MCP1700">
+      <description>LDO Voltage Regulator</description>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">MCP1700</field>
+        <field name="Footprint">agg:SOT-23</field>
+        <field name="Datasheet">http://www.farnell.com/datasheets/1784514.pdf</field>
+        <field name="Farnell">1296592</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VOUT" type="power_out"/>
+        <pin num="3" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="agg-kicad" part="MICROUSB">
+      <description>Micro USB connector</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">MICROUSB</field>
+        <field name="Footprint">agg:MICROUSB_MOLEX_47589-0001</field>
+        <field name="Farnell">1568023</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="power_out"/>
+        <pin num="2" name="D-" type="BiDi"/>
+        <pin num="3" name="D+" type="BiDi"/>
+        <pin num="4" name="ID" type="passive"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="S" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="agg-kicad" part="NPN">
+      <description>NPN BJT Transistor</description>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">NPN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="passive"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="agg-kicad" part="PART">
+      <description>Generic placeholder part</description>
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">PART</field>
+      </fields>
+    </libpart>
+    <libpart lib="agg-kicad" part="R">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="agg-kicad" part="TESTPAD">
+      <description>Test pad</description>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TESTPAD</field>
+        <field name="Footprint">agg:TESTPAD</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TP" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="lt1215" part="LT1215CS8#PBF">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LT1215CS8#PBF</field>
+        <field name="Footprint">agg:SOIC-8</field>
+        <field name="Datasheet">https://www.mouser.co.uk/datasheet/2/609/12156fb-1268356.pdf</field>
+        <field name="Mouser">584-LT1215CS8#PBF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT_A" type="output"/>
+        <pin num="2" name="-IN_A" type="input"/>
+        <pin num="3" name="+IN_A" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="+IN_B" type="input"/>
+        <pin num="6" name="-IN_B" type="input"/>
+        <pin num="7" name="OUT_B" type="output"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="potentiometer" part="potentiometer">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">potentiometer</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="ST8R00">
+      <uri>S:\4thYearProject\zener-rng\zener-rng/ST8R00.lib</uri>
+    </library>
+    <library logical="TPL0401A-10QDCKRQ1">
+      <uri>S:\4thYearProject\zener-rng\zener-rng\TPL0401A-10QDCKRQ1.lib</uri>
+    </library>
+    <library logical="agg-kicad">
+      <uri>S:\4thYearProject\zener-rng\zener-rng/../agg-kicad/agg-kicad.lib</uri>
+    </library>
+    <library logical="lt1215">
+      <uri>S:\4thYearProject\zener-rng\zener-rng/lt1215.lib</uri>
+    </library>
+    <library logical="potentiometer">
+      <uri>S:\4thYearProject\zener-rng\zener-rng/potentiometer.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(R6-Pad2)">
+      <node ref="R7" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="TP6" pin="1"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="2" name="3v3">
+      <node ref="U3" pin="1"/>
+      <node ref="TP7" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U3" pin="6"/>
+      <node ref="R15" pin="1"/>
+      <node ref="R16" pin="1"/>
+      <node ref="R12" pin="1"/>
+      <node ref="R13" pin="1"/>
+      <node ref="IC1" pin="2"/>
+    </net>
+    <net code="3" name="Net-(C4-Pad1)">
+      <node ref="C4" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="TP3" pin="1"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="U2" pin="4"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="J1" pin="5"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="J2" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J4" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="J5" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="R7" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="U1" pin="7"/>
+      <node ref="R14" pin="2"/>
+      <node ref="U3" pin="2"/>
+      <node ref="U1" pin="2"/>
+      <node ref="IC1" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="R12" pin="3"/>
+    </net>
+    <net code="5" name="Net-(J3-Pad1)">
+      <node ref="U3" pin="5"/>
+      <node ref="TP12" pin="1"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="6" name="Net-(J3-Pad3)">
+      <node ref="J3" pin="3"/>
+      <node ref="R12" pin="2"/>
+      <node ref="TP11" pin="1"/>
+    </net>
+    <net code="7" name="Net-(J3-Pad2)">
+      <node ref="J3" pin="2"/>
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="8" name="Net-(J5-Pad3)">
+      <node ref="R15" pin="2"/>
+      <node ref="J5" pin="3"/>
+      <node ref="U3" pin="3"/>
+      <node ref="TP13" pin="1"/>
+    </net>
+    <net code="9" name="Net-(J5-Pad2)">
+      <node ref="R16" pin="2"/>
+      <node ref="U3" pin="4"/>
+      <node ref="J5" pin="2"/>
+      <node ref="TP14" pin="1"/>
+    </net>
+    <net code="10" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="11" name="12v">
+      <node ref="U2" pin="8"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R6" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U1" pin="8"/>
+      <node ref="C9" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="TP5" pin="1"/>
+    </net>
+    <net code="12" name="Net-(C10-Pad1)">
+      <node ref="R11" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="U2" pin="7"/>
+      <node ref="TP9" pin="1"/>
+    </net>
+    <net code="13" name="Net-(R10-Pad1)">
+      <node ref="U2" pin="6"/>
+      <node ref="R10" pin="1"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="14" name="Net-(R8-Pad2)">
+      <node ref="U2" pin="5"/>
+      <node ref="TP8" pin="1"/>
+      <node ref="R8" pin="2"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="15" name="Net-(J1-PadS)">
+      <node ref="J1" pin="S"/>
+    </net>
+    <net code="16" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="17" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="18" name="Net-(C4-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="TP4" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="R5" pin="1"/>
+      <node ref="C4" pin="2"/>
+    </net>
+    <net code="19" name="Net-(C8-Pad1)">
+      <node ref="R10" pin="2"/>
+      <node ref="C8" pin="1"/>
+    </net>
+    <net code="20" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="21" name="Net-(R8-Pad1)">
+      <node ref="U2" pin="2"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="22" name="Net-(Q1-Pad3)">
+      <node ref="Q1" pin="3"/>
+    </net>
+    <net code="23" name="Net-(D1-Pad1)">
+      <node ref="D1" pin="1"/>
+      <node ref="TP1" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="24" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="25" name="VCC">
+      <node ref="U1" pin="4"/>
+      <node ref="C2" pin="1"/>
+      <node ref="IC1" pin="3"/>
+      <node ref="J1" pin="1"/>
+      <node ref="J2" pin="3"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U1" pin="6"/>
+      <node ref="TP2" pin="1"/>
+      <node ref="L1" pin="1"/>
+    </net>
+    <net code="26" name="Net-(L1-Pad2)">
+      <node ref="U1" pin="1"/>
+      <node ref="L1" pin="2"/>
+    </net>
+    <net code="27" name="Net-(C10-Pad2)">
+      <node ref="R14" pin="1"/>
+      <node ref="J4" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="TP10" pin="1"/>
+    </net>
+  </nets>
+</export>

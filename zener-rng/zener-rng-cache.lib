@@ -55,17 +55,17 @@ X 12v 1 0 0 0 L 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
-# agg-kicad:5v
+# agg-kicad:3v3
 #
-DEF agg-kicad:5v #PWR 0 40 N N 1 F P
+DEF agg-kicad:3v3 #PWR 0 40 N N 1 F P
 F0 "#PWR" 0 110 50 H I L CNN
-F1 "agg-kicad:5v" 0 90 50 H V C CNN
+F1 "agg-kicad:3v3" 0 90 50 H V C CNN
 F2 "" 0 0 50 H I C CNN
 F3 "" 0 0 50 H I C CNN
 DRAW
 P 2 0 1 0 0 50 20 20 N
 P 3 0 1 0 0 0 0 50 -20 20 N
-X 5v 1 0 0 0 L 50 50 1 1 W N
+X 3v3 1 0 0 0 L 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
@@ -202,6 +202,31 @@ X C 3 0 200 120 D 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# agg-kicad:PART
+#
+DEF agg-kicad:PART X 0 40 Y Y 1 F N
+F0 "X" 50 100 50 H V L CNN
+F1 "agg-kicad:PART" 50 0 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S 0 150 500 -50 0 1 0 f
+ENDDRAW
+ENDDEF
+#
+# agg-kicad:PWR
+#
+DEF agg-kicad:PWR #FLG 0 40 N N 1 F P
+F0 "#FLG" 0 160 50 H I C CNN
+F1 "agg-kicad:PWR" 0 90 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 5 0 1 0 0 20 -20 40 0 60 20 40 0 20 f
+X pwr 1 0 0 20 U 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
 # agg-kicad:R
 #
 DEF agg-kicad:R R 0 40 N N 1 F N
@@ -226,6 +251,20 @@ F3 "" 0 0 50 H I C CNN
 DRAW
 P 2 0 1 45 50 0 50 0 N
 X TP 1 0 0 50 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# agg-kicad:VCC
+#
+DEF agg-kicad:VCC #PWR 0 40 N N 1 F P
+F0 "#PWR" 0 110 50 H I L CNN
+F1 "agg-kicad:VCC" 0 90 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 0 50 20 20 N
+P 3 0 1 0 0 0 0 50 -20 20 N
+X VCC 1 0 0 0 L 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #
@@ -262,8 +301,8 @@ S -150 50 150 -50 0 1 0 N
 P 2 0 1 0 0 -50 -50 -100 N
 P 2 0 1 0 0 -50 50 -100 N
 X ~ 1 -350 0 200 R 50 50 1 1 P
-X ~ 2 350 0 200 L 50 50 1 1 P
-X ~ 3 0 -250 200 U 50 50 1 1 P
+X ~ 2 0 -250 200 U 50 50 1 1 P
+X ~ 3 350 0 200 L 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
