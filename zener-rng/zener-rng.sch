@@ -680,14 +680,14 @@ Wire Wire Line
 $Comp
 L agg-kicad:CONN_01x03 J5
 U 1 1 5C88716D
-P 9650 2200
-F 0 "J5" H 9650 1850 50  0000 R CNN
-F 1 "CONN_01x03" H 9650 2300 50  0000 R CNN
-F 2 "agg:SIL-254P-03" H 9650 2200 50  0001 C CNN
-F 3 "" H 9650 2200 50  0001 C CNN
-F 4 "1593459" H 9650 2200 50  0001 C CNN "Farnell"
-	1    9650 2200
-	-1   0    0    1   
+P 10100 1900
+F 0 "J5" H 10100 1550 50  0000 R CNN
+F 1 "CONN_01x03" H 10100 2000 50  0000 R CNN
+F 2 "agg:SIL-254P-03" H 10100 1900 50  0001 C CNN
+F 3 "" H 10100 1900 50  0001 C CNN
+F 4 "1593459" H 10100 1900 50  0001 C CNN "Farnell"
+	1    10100 1900
+	-1   0    0    -1  
 $EndComp
 $Comp
 L agg-kicad:CONN_01x03 J3
@@ -1119,21 +1119,6 @@ F 3 "" H 5150 5100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L agg-kicad:GND #PWR0131
-U 1 1 5C92F5CE
-P 9500 2250
-F 0 "#PWR0131" H 9370 2290 50  0001 L CNN
-F 1 "GND" H 9400 2250 50  0000 C CNN
-F 2 "" H 9500 2250 50  0001 C CNN
-F 3 "" H 9500 2250 50  0001 C CNN
-	1    9500 2250
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9550 2200 9500 2200
-Wire Wire Line
-	9500 2200 9500 2250
-$Comp
 L agg-kicad:PART X1
 U 1 1 5C933AB8
 P 6200 1300
@@ -1193,16 +1178,9 @@ F 3 "" H 1400 800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1400 800  1400 850 
-Wire Wire Line
-	1450 1150 1200 1150
-Wire Wire Line
-	1200 1150 1200 1250
 Connection ~ 1200 1250
 Wire Wire Line
 	1450 1050 1200 1050
-Wire Wire Line
-	1200 1050 1200 1150
-Connection ~ 1200 1150
 $Comp
 L agg-kicad:3v3 #PWR0133
 U 1 1 5C953EAA
@@ -1220,12 +1198,6 @@ Text Notes 7000 5350 0    50   ~ 0
 Ref out
 Text Notes 7000 5550 0    50   ~ 0
 Gnd
-Text Notes 9750 2200 0    50   ~ 0
-Gnd
-Text Notes 9750 2000 0    50   ~ 0
-SCL
-Text Notes 9750 2100 0    50   ~ 0
-SDA
 Text Notes 6200 2050 1    50   ~ 0
 Manual control
 Text Notes 6750 2050 1    50   ~ 0
@@ -1347,14 +1319,8 @@ Wire Wire Line
 Connection ~ 8450 2000
 Wire Wire Line
 	9050 1950 9050 2000
-Connection ~ 9050 2000
-Wire Wire Line
-	9050 2000 9550 2000
 Wire Wire Line
 	9050 2150 9050 2100
-Connection ~ 9050 2100
-Wire Wire Line
-	9050 2100 9550 2100
 $Comp
 L agg-kicad:PWR #FLG0101
 U 1 1 5CA04875
@@ -1422,4 +1388,28 @@ F 4 "2749806" H 8050 1700 50  0001 C CNN "Farnell"
 $EndComp
 Connection ~ 8050 1700
 Connection ~ 8050 1800
+NoConn ~ 10000 1900
+Wire Wire Line
+	1200 1050 1200 1250
+NoConn ~ 1450 1150
+Text Label 9800 2000 0    50   ~ 0
+SDA
+Text Label 9800 2100 0    50   ~ 0
+SCL
+Text Label 9550 2000 2    50   ~ 0
+SCL
+Text Label 9550 2100 2    50   ~ 0
+SDA
+Wire Wire Line
+	9550 2000 9050 2000
+Connection ~ 9050 2000
+Wire Wire Line
+	9550 2100 9050 2100
+Connection ~ 9050 2100
+Text Notes 9600 2050 0    50   ~ 0
+flip
+Wire Wire Line
+	9800 2000 10000 2000
+Wire Wire Line
+	9800 2100 10000 2100
 $EndSCHEMATC
