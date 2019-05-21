@@ -3,5 +3,5 @@
   (lib (name lt1215)(type Legacy)(uri ${KIPRJMOD}/lt1215.lib)(options "")(descr ""))
   (lib (name ST8R00)(type Legacy)(uri ${KIPRJMOD}/ST8R00.lib)(options "")(descr ""))
   (lib (name potentiometer)(type Legacy)(uri ${KIPRJMOD}/potentiometer.lib)(options "")(descr ""))
-  (lib (name TPL0401A-10QDCKRQ1)(type Legacy)(uri S:/4thYearProject/zener-rng/zener-rng/TPL0401A-10QDCKRQ1.lib)(options "")(descr ""))
+  (lib (name TPL0401A-10QDCKRQ1)(type Legacy)(uri S:/4thYearProject/hardware-rng/hardware-rng/TPL0401A-10QDCKRQ1.lib)(options "")(descr ""))
 )

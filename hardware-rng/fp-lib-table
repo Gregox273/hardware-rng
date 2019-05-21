@@ -1,4 +1,4 @@
 (fp_lib_table
   (lib (name agg)(type KiCad)(uri ${KIPRJMOD}/../agg-kicad/agg.pretty)(options "")(descr ""))
-  (lib (name zener-rng)(type KiCad)(uri ${KIPRJMOD}/zener-rng.pretty)(options "")(descr ""))
+  (lib (name hardware-rng)(type KiCad)(uri ${KIPRJMOD}/hardware-rng.pretty)(options "")(descr ""))
 )

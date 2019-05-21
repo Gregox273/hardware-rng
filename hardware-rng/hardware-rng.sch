@@ -1,11 +1,11 @@
 EESchema Schematic File Version 4
-LIBS:zener-rng-cache
+LIBS:hardware-rng-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title "Zener-RNG"
+Title "Hardware-RNG"
 Date "2019-03-08"
 Rev "1.0"
 Comp "Cambridge University Engineering Department"
@@ -49,7 +49,7 @@ F 4 "1468845" H 2850 2250 50  0001 C CNN "Farnell"
 	0    1    1    0   
 $EndComp
 Text Notes 2550 2350 0    50   ~ 0
-zener
+hardware
 $Comp
 L agg-kicad:R R1
 U 1 1 5C82D4D5
@@ -92,7 +92,7 @@ U 1 1 5C82D7B0
 P 3500 2700
 F 0 "Q1" H 3638 2654 50  0000 L CNN
 F 1 "2N4401" H 3638 2745 50  0000 L CNN
-F 2 "zener-rng:TO-92" H 3530 2620 50  0001 C CNN
+F 2 "hardware-rng:TO-92" H 3530 2620 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1702446.pdf" H 3630 2720 50  0001 C CNN
 F 4 "1574373" H 3500 2700 50  0001 C CNN "Farnell"
 	1    3500 2700
@@ -551,7 +551,7 @@ U 1 1 5C862FE8
 P 2950 6050
 F 0 "L1" H 3000 6228 50  0000 C CNN
 F 1 "4.7uH" H 3000 6137 50  0000 C CNN
-F 2 "zener-rng:WURTH_IND_3.8_3.8_1.65" H 2950 6050 50  0001 C CNN
+F 2 "hardware-rng:WURTH_IND_3.8_3.8_1.65" H 2950 6050 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/1910986.pdf" H 2950 6050 50  0001 C CNN
 F 4 "1635834" H 2950 6050 50  0001 C CNN "Farnell"
 	1    2950 6050
@@ -1118,7 +1118,7 @@ U 1 1 5CA16A54
 P 3000 6750
 F 0 "U1" H 2510 6796 50  0000 R CNN
 F 1 "ST8R00" H 2510 6705 50  0000 R CNN
-F 2 "zener-rng:DFN-8-ST" H 3000 5600 50  0001 C CNN
+F 2 "hardware-rng:DFN-8-ST" H 3000 5600 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2581721.pdf" H 3000 5700 50  0001 C CNN
 F 4 "2849799" H 3000 5500 50  0001 C CNN "Farnell"
 	1    3000 6750
@@ -1180,7 +1180,7 @@ U 1 1 5C88AC7C
 P 7650 1850
 F 0 "R15" V 7604 1938 50  0000 L CNN
 F 1 "1k potentiometer" V 7695 1938 50  0000 L CNN
-F 2 "zener-rng:3266W_trimpot" H 7650 1850 50  0001 C CNN
+F 2 "hardware-rng:3266W_trimpot" H 7650 1850 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2061259.pdf" H 7650 1850 50  0001 C CNN
 F 4 "9352643" H 7650 1850 50  0001 C CNN "Farnell"
 	1    7650 1850

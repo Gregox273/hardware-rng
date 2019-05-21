@@ -6,7 +6,7 @@ EESchema-LIBRARY Version 2.4
 DEF ST8R00:ST8R00 U 0 40 Y Y 1 F N
 F0 "U" 0 -50 50 H V C CNN
 F1 "ST8R00:ST8R00" 0 50 50 H V C CNN
-F2 "zener-rng:DFN-8-ST" 0 -1150 50 H I C CNN
+F2 "hardware-rng:DFN-8-ST" 0 -1150 50 H I C CNN
 F3 "http://www.farnell.com/datasheets/2581721.pdf" 0 -1050 50 H I C CNN
 F4 "2849799" 0 -1250 50 H I C CNN "Farnell"
 DRAW

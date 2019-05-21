@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>S:\4thYearProject\zener-rng\zener-rng\zener-rng.sch</source>
+    <source>S:\4thYearProject\hardware-rng\hardware-rng\hardware-rng.sch</source>
     <date>09/03/2019 20:46:37</date>
     <tool>Eeschema (5.0.0-rc3-dev)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
-        <title>Zener-RNG</title>
+        <title>Hardware-RNG</title>
         <company>Cambridge University Engineering Department</company>
         <rev>1.0</rev>
         <date>2019-03-08</date>
-        <source>zener-rng.sch</source>
+        <source>hardware-rng.sch</source>
         <comment number="1" value="Gregory Brooks gb510"/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -62,7 +62,7 @@
     </comp>
     <comp ref="Q1">
       <value>2N4401</value>
-      <footprint>zener-rng:TO-92</footprint>
+      <footprint>hardware-rng:TO-92</footprint>
       <datasheet>http://www.farnell.com/datasheets/1702446.pdf</datasheet>
       <fields>
         <field name="Farnell">1574373</field>
@@ -224,7 +224,7 @@
     </comp>
     <comp ref="L1">
       <value>4.7uH</value>
-      <footprint>zener-rng:WURTH_IND_3.8_3.8_1.65</footprint>
+      <footprint>hardware-rng:WURTH_IND_3.8_3.8_1.65</footprint>
       <datasheet>http://www.farnell.com/datasheets/1910986.pdf</datasheet>
       <fields>
         <field name="Farnell">1635834</field>
@@ -413,7 +413,7 @@
     </comp>
     <comp ref="U1">
       <value>ST8R00</value>
-      <footprint>zener-rng:DFN-8-ST</footprint>
+      <footprint>hardware-rng:DFN-8-ST</footprint>
       <datasheet>http://www.farnell.com/datasheets/2581721.pdf</datasheet>
       <fields>
         <field name="Farnell">2849799</field>
@@ -444,7 +444,7 @@
     </comp>
     <comp ref="R15">
       <value>1k potentiometer</value>
-      <footprint>zener-rng:3266W_trimpot</footprint>
+      <footprint>hardware-rng:3266W_trimpot</footprint>
       <datasheet>http://www.farnell.com/datasheets/2061259.pdf</datasheet>
       <fields>
         <field name="Farnell">9352643</field>
@@ -459,7 +459,7 @@
       <fields>
         <field name="Reference">U</field>
         <field name="Value">ST8R00</field>
-        <field name="Footprint">zener-rng:DFN-8-ST</field>
+        <field name="Footprint">hardware-rng:DFN-8-ST</field>
         <field name="Datasheet">http://www.farnell.com/datasheets/2581721.pdf</field>
         <field name="Farnell">2849799</field>
       </fields>
@@ -615,16 +615,16 @@
   </libparts>
   <libraries>
     <library logical="ST8R00">
-      <uri>S:\4thYearProject\zener-rng\zener-rng/ST8R00.lib</uri>
+      <uri>S:\4thYearProject\hardware-rng\hardware-rng/ST8R00.lib</uri>
     </library>
     <library logical="agg-kicad">
-      <uri>S:\4thYearProject\zener-rng\zener-rng/../agg-kicad/agg-kicad.lib</uri>
+      <uri>S:\4thYearProject\hardware-rng\hardware-rng/../agg-kicad/agg-kicad.lib</uri>
     </library>
     <library logical="lt1215">
-      <uri>S:\4thYearProject\zener-rng\zener-rng/lt1215.lib</uri>
+      <uri>S:\4thYearProject\hardware-rng\hardware-rng/lt1215.lib</uri>
     </library>
     <library logical="potentiometer">
-      <uri>S:\4thYearProject\zener-rng\zener-rng/potentiometer.lib</uri>
+      <uri>S:\4thYearProject\hardware-rng\hardware-rng/potentiometer.lib</uri>
     </library>
   </libraries>
   <nets>

@@ -11,7 +11,7 @@
 
   (page A4)
   (title_block
-    (title Zener-RNG)
+    (title Hardware-RNG)
     (date 2019-03-09)
     (rev 1.0)
     (company "Cambridge University Engineering Department")
@@ -623,7 +623,7 @@
     )
   )
 
-  (module zener-rng:WURTH_IND_3.8_3.8_1.65 (layer F.Cu) (tedit 5C8399B2) (tstamp 5C841AFA)
+  (module hardware-rng:WURTH_IND_3.8_3.8_1.65 (layer F.Cu) (tedit 5C8399B2) (tstamp 5C841AFA)
     (at 98 125)
     (path /5C862FE8)
     (fp_text reference L1 (at 0 3.5) (layer F.Fab)
@@ -654,7 +654,7 @@
       (net 15 "Net-(L1-Pad2)"))
   )
 
-  (module zener-rng:TO-92 (layer F.Cu) (tedit 5C83A872) (tstamp 5C86538F)
+  (module hardware-rng:TO-92 (layer F.Cu) (tedit 5C83A872) (tstamp 5C86538F)
     (at 89 138.5 270)
     (descr "TO-92 leads molded, narrow, drill 0.75mm (see NXP sot054_po.pdf)")
     (tags "to-92 sc-43 sc-43a sot54 PA33 transistor")
@@ -1337,7 +1337,7 @@
       (net 14 "Net-(J3-Pad3)"))
   )
 
-  (module zener-rng:DFN-8-ST (layer F.Cu) (tedit 5C82F73B) (tstamp 5C841CDF)
+  (module hardware-rng:DFN-8-ST (layer F.Cu) (tedit 5C82F73B) (tstamp 5C841CDF)
     (at 92.5 125.5 180)
     (path /5CA16A54)
     (fp_text reference U1 (at 0 -3.3 180) (layer F.Fab)
@@ -1626,7 +1626,7 @@
     )
   )
 
-  (module zener-rng:3266W_trimpot (layer F.Cu) (tedit 5C840181) (tstamp 5C868A39)
+  (module hardware-rng:3266W_trimpot (layer F.Cu) (tedit 5C840181) (tstamp 5C868A39)
     (at 116 126.2 270)
     (path /5C88AC7C)
     (fp_text reference R15 (at 0 3.3 270) (layer F.Fab)
