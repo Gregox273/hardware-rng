@@ -48,8 +48,6 @@ F 4 "1468845" H 2850 2250 50  0001 C CNN "Farnell"
 	1    2850 2250
 	0    1    1    0   
 $EndComp
-Text Notes 2550 2350 0    50   ~ 0
-hardware
 $Comp
 L agg-kicad:R R1
 U 1 1 5C82D4D5
